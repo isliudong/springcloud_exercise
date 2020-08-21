@@ -22,6 +22,7 @@
         <module>consumer-hystrix-order82</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center3344</module>
+        <module>colud-server3355-config-from-configcenter</module>
 
         <!--<module>provider-payment8004</module>-->
 
