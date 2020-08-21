@@ -1,0 +1,12 @@
+# Project exclude paths
+/cloud-commons/target/
+/cloud-gateway-gateway9527/target/
+/consumer-hystrix-order82/target/
+/consumer-order80/target/
+/consumer-order81/target/
+/provider-hystrix-payment8001/target/
+/provider-payment8001/target/
+/provider-payment8002/target/
+/provider-test/target/
+/server-eureka-01/target/
+/server-eureka-02/target/
