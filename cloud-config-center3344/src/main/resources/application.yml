@@ -1,0 +1,22 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/isliudong/springcloub-config-files.git #克隆配置文件的git仓库地址
+          ####搜索克隆后目录
+          search-paths:
+            - springcloub-config-files
+      ####默认读取分支，可通过访问链接修改读取分支
+      label: master
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

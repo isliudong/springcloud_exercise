@@ -21,6 +21,7 @@
         <module>provider-hystrix-payment8001</module>
         <module>consumer-hystrix-order82</module>
         <module>cloud-gateway-gateway9527</module>
+        <module>cloud-config-center3344</module>
 
         <!--<module>provider-payment8004</module>-->
 
